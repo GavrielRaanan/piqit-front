@@ -1,13 +1,13 @@
-import './App.css'
+import './App.css';
 
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
-import Compare from './Compare'
-import Image from './Image'
-import Home from './Home'
-import Error from './Error'
+import Compare from './Compare';
+import Image from './Image';
+import Home from './Home';
+import Error from './Error';
 
-import Navbar from './Navbar'
+import Navbar from './Navbar';
 
 function App() {
   return (
@@ -28,7 +28,7 @@ function App() {
         </Route>
       </Switch>
     </Router>
-  )
+  );
 }
 
-export default App
+export default App;
