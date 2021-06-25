@@ -1,7 +1,7 @@
 import React from 'react';
 
-const imageMain = require('../assets/images/download.png').default;
-const image2 = require('../assets/images/images.jpg').default;
+const imageMain = require('./assets/images/download.png').default;
+const image2 = require('./assets/images/images.jpg').default;
 
 const Compare = () => {
   return (
